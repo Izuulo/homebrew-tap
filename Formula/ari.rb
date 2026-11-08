@@ -1,25 +1,25 @@
 class Ari < Formula
   desc "A zero-token status panel for Claude Code"
   homepage "https://github.com/Izuulo/ari"
-  version "0.3.9"
+  version "0.3.12"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Izuulo/ari/releases/download/v0.3.9/ari-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "28c91636b25106e97bd01873bd2c473f632f630832224777fdff3ad3dffe1d0b"
+      url "https://github.com/Izuulo/ari/releases/download/v0.3.12/ari-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "b80e2c7be9c1fcc272fc2952713b86835a34d7d43f0986520e66d017000dd21c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Izuulo/ari/releases/download/v0.3.9/ari-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "beaa0781a97da6f6caf0bf0b0a7b200b34b460f76388f658883b2c6b6cb6a4ae"
+      url "https://github.com/Izuulo/ari/releases/download/v0.3.12/ari-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "69a01a464c5b49530dd25e7d03be668ca753923b064943ebf248d769ee1d9591"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Izuulo/ari/releases/download/v0.3.9/ari-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a42dac54996e01a1e16d412fa1bf8975fad7ce12b2b6608230b0e7d58b6a6475"
+      url "https://github.com/Izuulo/ari/releases/download/v0.3.12/ari-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4c3d9657896c617ce8fa3b779d696ecf67c37bef15e3691c8c1d310061b1bc4e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Izuulo/ari/releases/download/v0.3.9/ari-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8a238ce3e7c49d3b71bd77b3e7ee20d5760206034103f5a300dfef6e30422b39"
+      url "https://github.com/Izuulo/ari/releases/download/v0.3.12/ari-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f637b50d2ec5e56aa698178e38ac565f982ae002291a54a4cb278c326bc70a6a"
     end
   end
   license "MIT"
